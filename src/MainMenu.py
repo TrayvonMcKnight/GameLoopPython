@@ -3,13 +3,11 @@ Created on Dec 19, 2016
 
 @author: Trayvon
 '''
-from xml.etree.ElementPath import ops
 
 #This file will contain the main menu
 
 def MainMenu():
-    # Create a basic text based menu
-    
+    # Create a basic text based menu    
     play = 'Play Game'
     ops = 'Options'
     valid = False
@@ -33,7 +31,7 @@ def MainMenu():
         elif (choice == '2'):
             print('You chose: ', play)
             valid = True
-    
+
     #If the player chose to Play game, execute loop
     
     #If the player chose the options, execute the options
